@@ -1,4 +1,4 @@
-package bomberman.Entities.AnimatedEntity.Character;
+package bomberman.Entities_AnimatedEntity_Character;
 
 import bomberman.Entities.AnimatedEntity;
 
@@ -14,6 +14,10 @@ public abstract class Character extends AnimatedEntity{
     protected boolean alive = true;
     protected boolean moving = false;
     
+    public Character() {
+		
+	}
+    
     public Character(int x,int y) {
         this.x = x;
         this.y = y;
@@ -25,7 +29,7 @@ public abstract class Character extends AnimatedEntity{
     @Override
     public abstract void update();
     
-    // phương thức tính hoạt động di chuyern của entity
+    
     public abstract void calculateMove();
 
 
