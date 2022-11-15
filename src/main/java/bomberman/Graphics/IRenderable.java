@@ -1,6 +1,7 @@
 package bomberman.Graphics;
 
 public interface IRenderable {
-   void upadte();
-   void render();
+  abstract void update();
+  abstract void render();
+
 }

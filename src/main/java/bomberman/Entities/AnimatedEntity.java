@@ -1,5 +1,5 @@
 package bomberman.Entities;
 
-public abstract class AnimaledEntity  extends Entity{
+public abstract class AnimatedEntity  extends Entity{
     
 }
