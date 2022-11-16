@@ -1,6 +1,6 @@
-package bomberman.Entities_AnimatedEntity_Character;
+package bomberman.entities.animated_entity.character;
 
-import bomberman.Entities.AnimatedEntity;
+import bomberman.entities.AnimatedEntity;
 
 public abstract class Character extends AnimatedEntity{
 	

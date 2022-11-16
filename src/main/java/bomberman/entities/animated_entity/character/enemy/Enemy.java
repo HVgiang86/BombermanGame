@@ -1,8 +1,8 @@
-package bomberman.Entities_AnimatedEntity_Character_Enemy;
+package bomberman.entities.animated_entity.character.enemy;
 
-import bomberman.Entities_AnimatedEntity_Character.Character;
+import bomberman.entities.animated_entity.character.Character;
 
-public abstract class Enemy extends Character{
+public abstract class Enemy extends Character {
 
 	
 	// thong so nguoi choi

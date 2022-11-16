@@ -1,30 +1,29 @@
-package bomberman.Entities;
+package bomberman.entities;
 
 import bomberman.Graphics.IRenderable;
+import bomberman.Graphics.Sprite;
 
 public abstract class Entity implements IRenderable {
 
 	/**
 	 * param: 
-	 * x,y : kich thuoc ban dau cua entity 
+	 * x,y :  
 	 * removed: tinh trang cua  entity : da bi tieu diet hay chua
 	 * 			
 	 */
 	protected double x,y;
 	protected boolean removed = false;
-	
+	protected Sprite sprite;
 	
     public abstract void render() ;
 
     public abstract void update();
     
   
-   //entity hoat dong
     public void remove() {
     	removed = true;
     }
     
-    //Tra ve trang thai cua entity
       public boolean isRemoved() {
     	  return removed;
       }
@@ -36,5 +35,12 @@ public abstract class Entity implements IRenderable {
       public double getY() {
     	  return y;
       }
+
+	public Sprite getSprite() {
+		return sprite;
+	}
+
+	// phuong thuc xu ly va cham giua cac thuc the
+	public abstract boolean collide(Entity e);
       
 }
