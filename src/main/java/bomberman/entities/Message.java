@@ -2,6 +2,7 @@ package bomberman.entities;
 
 import java.awt.Color;
 
+
 public class Message extends Entity {
 	
 	protected String message;
@@ -9,8 +10,6 @@ public class Message extends Entity {
 	protected Color color;
 	protected int size;
 
-	
-	
 	public Message(String message, double x, double y, Color color, int size) {
 		this.x = x;
 		this.y = y;
