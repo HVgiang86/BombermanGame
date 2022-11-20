@@ -1,6 +1,7 @@
 package bomberman.entities.animated_entity.character.enemy;
 
-import bomberman.entities.animated_entity.character.Character;
+import bomberman.Graphics.Screen;
+import bomberman.entities.animated_entity.Character;
 
 public abstract class Enemy extends Character {
 
@@ -15,7 +16,7 @@ public abstract class Enemy extends Character {
 		}
 	
 	@Override
-	public void render() {
+	public void render(Screen screen) {
 		// TODO Auto-generated method stub
 		
 	}

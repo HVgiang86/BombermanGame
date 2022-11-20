@@ -1,12 +1,17 @@
-package bomberman.entities.animated_entity.character.enemy;
+package bomberman.entities.animated_entity;
 
 import bomberman.Graphics.Screen;
+import bomberman.entities.AnimatedEntity;
 import bomberman.entities.Entity;
 
-public class Ballom extends Enemy{
+public class Bomb extends AnimatedEntity{
 
-	public Ballom() {
-		//TODO Auto-generated constructor stub
+	
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
@@ -21,7 +26,6 @@ public class Ballom extends Enemy{
 		
 	}
 
-	
 	
 
 }

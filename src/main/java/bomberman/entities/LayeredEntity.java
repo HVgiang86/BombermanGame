@@ -2,6 +2,8 @@ package bomberman.entities;
 
 import java.util.LinkedList;
 
+import bomberman.Graphics.Screen;
+
 /**
  * chứa và quản lý Entity tại cùng một vị trí
  */
@@ -13,11 +15,6 @@ public class LayeredEntity extends Entity {
 	public LayeredEntity(int x,int y, Entity ...entities) {
 		
 		
-	}
-	
-	@Override
-	public void render() {
-
 	}
 
 	@Override
@@ -40,5 +37,11 @@ public class LayeredEntity extends Entity {
 	public void clearRemoved() {
 		if (getTopEntity().isRemoved())
 			entities.removeLast();
+	}
+
+	@Override
+	public void render(Screen screen) {
+		// TODO Auto-generated method stub
+		
 	}
 }

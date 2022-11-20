@@ -1,4 +1,4 @@
-package bomberman.entities.animated_entity.character;
+package bomberman.entities.animated_entity;
 
 import bomberman.entities.AnimatedEntity;
 
@@ -23,9 +23,7 @@ public abstract class Character extends AnimatedEntity{
         this.y = y;
     }
 
-    @Override
-    public abstract void render();
-
+   
     @Override
     public abstract void update();
     

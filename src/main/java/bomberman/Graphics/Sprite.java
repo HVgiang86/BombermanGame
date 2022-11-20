@@ -128,6 +128,15 @@ public class Sprite {
 	public static Sprite bomb_exploded_vertical2= new Sprite(DEFAULT_SIZE, 2, 5, 16, 16, SpriteSheet.tiles);
 	public static Sprite bomb_exploded_vertical3= new Sprite(DEFAULT_SIZE, 3, 5, 16, 16, SpriteSheet.tiles);
 	
+	public static Sprite bomb_exploded_vertical_top_last = new Sprite(DEFAULT_SIZE, 1, 4, 16, 16, SpriteSheet.tiles);
+	public static Sprite bomb_exploded_vertical_top_last1 = new Sprite(DEFAULT_SIZE, 2, 4, 16, 16, SpriteSheet.tiles);
+	public static Sprite ebomb_exploded_vertical_top_last2 = new Sprite(DEFAULT_SIZE, 3, 4, 16, 16, SpriteSheet.tiles);
+	
+	public static Sprite bomb_exploded_vertical_down_last = new Sprite(DEFAULT_SIZE, 1, 6, 16, 16, SpriteSheet.tiles);
+	public static Sprite bomb_exploded_vertical_down_last1 = new Sprite(DEFAULT_SIZE, 2, 6, 16, 16, SpriteSheet.tiles);
+	public static Sprite bomb_exploded_vertical_down_last2 = new Sprite(DEFAULT_SIZE, 3, 6, 16, 16, SpriteSheet.tiles);
+	
+	
 	public static Sprite bomb_exploded_horizontal1= new Sprite(DEFAULT_SIZE, 1, 7, 16, 16, SpriteSheet.tiles);
 	public static Sprite bomb_exploded_horizontal2= new Sprite(DEFAULT_SIZE, 1, 7, 16, 16, SpriteSheet.tiles);
 	public static Sprite bomb_exploded_horizontal3= new Sprite(DEFAULT_SIZE, 1, 8, 16, 16, SpriteSheet.tiles);
@@ -140,13 +149,7 @@ public class Sprite {
 	public static Sprite bomb_exploded_horizontal_right_last1 = new Sprite(DEFAULT_SIZE, 2, 8, 16, 16, SpriteSheet.tiles);
 	public static Sprite bomb_exploded_horizontal_right_last2 = new Sprite(DEFAULT_SIZE, 2, 9, 16, 16, SpriteSheet.tiles);
 	
-	public static Sprite bomb_exploded_horizontall_top_last = new Sprite(DEFAULT_SIZE, 1, 4, 16, 16, SpriteSheet.tiles);
-	public static Sprite bomb_exploded_horizontal_top_last1 = new Sprite(DEFAULT_SIZE, 2, 4, 16, 16, SpriteSheet.tiles);
-	public static Sprite ebomb_exploded_horizontal_top_last2 = new Sprite(DEFAULT_SIZE, 3, 4, 16, 16, SpriteSheet.tiles);
 	
-	public static Sprite bomb_exploded_horizontal_down_last = new Sprite(DEFAULT_SIZE, 1, 6, 16, 16, SpriteSheet.tiles);
-	public static Sprite bomb_exploded_horizontal_down_last1 = new Sprite(DEFAULT_SIZE, 2, 6, 16, 16, SpriteSheet.tiles);
-	public static Sprite bomb_exploded_horizontal_down_last2 = new Sprite(DEFAULT_SIZE, 3, 6, 16, 16, SpriteSheet.tiles);
 	
 	
 	//Brick FlameSegment: gach bi no
