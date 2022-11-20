@@ -2,6 +2,8 @@ package bomberman.entities;
 
 import java.awt.Color;
 
+import bomberman.Graphics.Screen;
+
 
 public class Message extends Entity {
 	
@@ -10,6 +12,8 @@ public class Message extends Entity {
 	protected Color color;
 	protected int size;
 
+	
+	//hien thi thong bao khi giet duoc quai
 	public Message(String message, double x, double y, Color color, int size) {
 		this.x = x;
 		this.y = y;
@@ -41,10 +45,6 @@ public class Message extends Entity {
 		return color;
 	}
 
-	@Override
-	public void render() {
-	
-	}
 
 	@Override
 	public void update() {
@@ -54,6 +54,12 @@ public class Message extends Entity {
 	@Override
 	public boolean collide(Entity e) {
 			return true;
+	}
+
+	@Override
+	public void render(Screen screen) {
+	
+		
 	}
 
 }

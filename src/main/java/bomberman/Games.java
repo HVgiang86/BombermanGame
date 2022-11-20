@@ -24,6 +24,7 @@ public class Games extends Canvas {
 	//Thong so game bat dau choi
 	public static final int time = 200;
 	public static final int points = 0;
+	public static final int lives = 3;
 	
 	// Thoi gian tre man hinh
 	public static int Screen_Delay = 3;
@@ -60,7 +61,7 @@ public class Games extends Canvas {
 		this.frame.setTitle(title);
 		input = new KeyBoard();
 		screen = new Screen(width, height);
-		board = new Board();
+	
 	}
 
 	public static int getBombRate() {
