@@ -1,5 +1,11 @@
 package bomberman.entities.tiles;
 
-public class Wall {
+import bomberman.Graphics.Sprite;
+
+public class Wall extends Tile {
+
+	public Wall(int x, int y, Sprite sprite) {
+		super(x, y, sprite);
+	}
 
 }

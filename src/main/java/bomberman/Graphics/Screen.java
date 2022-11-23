@@ -26,22 +26,46 @@ public class Screen {
 	public void clear() {
 		Arrays.fill(pixels, 0);// cac phan tu trong mang pixels deu bang 0
 	}
-	
-	public void renderEntity(int xp,int yp,Entity entity) {
+
+	public void renderEntity(int xp, int yp, Entity entity) {
 		xp -= xOffset;
 		yp -= yOffset;
-		for(int y= 0; y< entity.getSprite().getSIZE();y++) {
+		for (int y = 0; y < entity.getSprite().getSIZE(); y++) {
 			int ya = y + yp;
-			for(int x = 0; y<entity.getSprite().getSIZE();x++) {
+			for (int x = 0; y < entity.getSprite().getSIZE(); x++) {
 				int xa = x + xp;
-				if(xa < -entity.getSprite().getSIZE() || xa >= width || ya < 0 || ya >= height)
+				if (xa < -entity.getSprite().getSIZE() || xa >= width || ya < 0 || ya >= height)
 					break;
-				if(xa < 0) xa = 0;
-				int color = entity.getSprite().getPixel(x + y*entity.getSprite().getSIZE());
-				if(color != transparent_color) pixels[xa + ya*width] = color;
+				if (xa < 0)
+					xa = 0;
+				int color = entity.getSprite().getPixel(x + y * entity.getSprite().getSIZE());
+				if (color != transparent_color)
+					pixels[xa + ya * width] = color;
 			}
 		}
 	}
-	
+
+	public void renderEntityWithBelowSprite(int xp, int yp, Entity entity, Sprite bellow) {
+
+		xp -= xOffset;
+		yp -= yOffset;
+		for (int y = 0; y < entity.getSprite().getSIZE(); y++) {
+			int ya = y + yp;
+			for (int x = 0; x < entity.getSprite().getSIZE(); x++) {
+				int xa = x + xp;
+				if (xa < -entity.getSprite().getSIZE() || xa >= width || ya < 0 || ya >= height)
+					break;
+				if (xa < 0)
+					xa = 0;
+				int color = entity.getSprite().getPixel(x + y * entity.getSprite().getSIZE());
+				if(color != transparent_color)
+					this.pixels[xa+ya*width] = color;
+				else {
+					this.pixels[xa+ya*width] = bellow.getPixel(x+y*bellow.getSIZE());
+				};
+			}
+
+		}
+	}
 
 }

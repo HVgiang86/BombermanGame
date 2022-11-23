@@ -1,14 +1,16 @@
 package bomberman.entities.animated_entity.character.enemy;
 
 import bomberman.Graphics.Screen;
-import bomberman.entities.animated_entity.Character;
+import bomberman.entities.animated_entity.Characters;
 
-public abstract class Enemy extends Character {
+public abstract class Enemy extends Characters {
 
 	
 	// thong so nguoi choi
 	protected int points;//diem so
 	protected double speed; // toc do
+	
+	
 	
 	
 	public Enemy() {

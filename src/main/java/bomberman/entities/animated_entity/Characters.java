@@ -1,8 +1,10 @@
 package bomberman.entities.animated_entity;
 
+import bomberman.Board;
+import bomberman.Graphics.Screen;
 import bomberman.entities.AnimatedEntity;
 
-public abstract class Character extends AnimatedEntity{
+public abstract class Characters extends AnimatedEntity{
 	
 	/**
 	 * param: 
@@ -11,16 +13,19 @@ public abstract class Character extends AnimatedEntity{
 	 * 		moving: lưu lại trạng thái có đang di chuyển hay không
 	 */
     protected int direct = -1;
+    protected Board board;
     protected boolean alive = true;
     protected boolean moving = false;
+    public int timeAfter = 40;
     
-    public Character() {
+    public Characters() {
 		
 	}
     
-    public Character(int x,int y) {
+    public Characters(int x,int y, Board board) {
         this.x = x;
         this.y = y;
+        this.board = board;
     }
 
    
@@ -30,6 +35,7 @@ public abstract class Character extends AnimatedEntity{
     
     public abstract void calculateMove();
 
+    public abstract void render(Screen screen);
 
     /**
      *

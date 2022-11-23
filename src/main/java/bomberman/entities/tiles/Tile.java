@@ -1,8 +1,9 @@
-package bomberman.entities;
+package bomberman.entities.tiles;
 
 import bomberman.Graphics.Screen;
 import bomberman.Graphics.Sprite;
 import bomberman.Level.Coordinates;
+import bomberman.entities.Entity;
 
 public abstract class Tile extends Entity{
 
