@@ -80,6 +80,7 @@ public class Flame extends Entity{
 		return max;
 	}
 	
+	//tra ve ngon lua do bomb tao ra tai  vi tri x,y
 	public FlameSegement flameSegementAt(int x, int y) {
 		for(int i = 0; i<this.flameSegement.length;i++) {
 			if(this.flameSegement[i].getX() == x && this.flameSegement[i].getY()== y)
