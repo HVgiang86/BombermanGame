@@ -1,0 +1,25 @@
+1668483994023	Delete element
+1668484033000	Rename resource 'Entities.AnimatedEntity.Character'
+1668484271970	Delete element
+1668484756320	Delete element
+1668485240090	Delete element
+1668485308897	Rename package 'bomberman.Entities.AnimatedEntity.Character.Enemy'
+1668486643715	Delete element
+1668558469745	Rename package 'bomberman.Entities_AnimatedEntity_Character'
+1668558559595	Move compilation unit
+1668558570044	Move compilation unit
+1668558606793	Move compilation units
+1668558611284	Delete element
+1668558635758	Rename package 'bomberman.EntitiesAnimatedEntity.Character'
+1668558645874	Rename package 'bomberman.EntitiesAnimatedEntity.Character.Enemy'
+1668558790561	Delete element
+1668559013785	Rename package 'bomberman.Entities.AnimatedEntity.Character.Enemy'
+1668559068390	Rename resource 'Character'
+1668559081214	Rename resource 'AnimatedEntity'
+1668559090259	Rename resource 'Entities'
+1668674199166	Rename type 'Bomber'
+1668674552373	Rename type 'Game'
+1668678396297	Delete element
+1668700417984	Delete element
+1668788407266	Rename package 'bomberman.entities.animated_entity.character'
+1668788845187	Rename package 'bomberman.entities.tile'

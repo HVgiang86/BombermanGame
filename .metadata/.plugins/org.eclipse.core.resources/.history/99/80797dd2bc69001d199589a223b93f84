@@ -1,0 +1,70 @@
+package bomberman.entities.animated_entity;
+
+import bomberman.Board;
+import bomberman.Graphics.Screen;
+import bomberman.Graphics.Sprite;
+import bomberman.entities.AnimatedEntity;
+import bomberman.entities.Entity;
+import bomberman.entities.animated_entity.bomb.Flame;
+import bomberman.entities.animated_entity.bomb.FlameSegement;
+
+public class Bomb extends AnimatedEntity {
+
+	protected double timeToExplode = 120; // thoi gian phat no
+	protected int timeAfter = 20; // thoi gian de no
+	protected Board board;
+	protected Flame[] flames;
+	protected boolean exploded = false;
+	protected boolean allowedToPassThru = true;
+
+	public Bomb(int x, int y, Board board) {
+		this.x = x;
+		this.y = y;
+		this.board = board;
+		this.sprite = Sprite.bomb_exploded1;
+		
+	}
+
+	@Override
+	public void update() {
+	if(this.timeToExplode >0 )
+		timeToExplode --;
+	else {
+		if(!exploded)
+			
+	}
+
+	}
+	
+	//xu ly bomb no
+	protected void explode() {
+		exploded = true;
+		allowedToPassThru = true;
+		
+		
+	}
+
+	@Override
+	public boolean collide(Entity e) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void render(Screen screen) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public FlameSegement flameAt(int x, int y) {
+		if(this.exploded) return null;
+		
+		for(int i = 0; i<this.flames.length; i++) {
+			if(this.flames[i]== null) return null;
+			FlameSegement flameSegement = this.flames[i].flameSegementAt(x, y);
+			if(flameSegement != null) return flameSegement;
+		}return null;
+	}
+	
+
+}

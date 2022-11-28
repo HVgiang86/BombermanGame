@@ -1,0 +1,100 @@
+package bomberman;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+import bomberman.Graphics.IRenderable;
+import bomberman.Graphics.Screen;
+import bomberman.Input.KeyBoard;
+import bomberman.Level.LevelLoader;
+import bomberman.entities.Entity;
+import bomberman.entities.Message;
+import bomberman.entities.animated_entity.Bomb;
+import bomberman.entities.animated_entity.Characters;
+
+public class Board implements IRenderable {
+
+	protected LevelLoader levelLoader;
+	protected Games games;
+	protected KeyBoard input;
+	protected Screen screen;
+
+	public Entity[] entities;
+	public List<Characters> characters = new ArrayList<>();
+	protected List<Bomb> bombs = new ArrayList<>();
+	private final List<Message> messages = new ArrayList<>();
+
+	private int screenToShow = -1;// 1:endgame, 2: changelevel, 3:paused
+
+	private int time = Games.time;
+	private int points = Games.points;
+	private int lives = Games.lives;
+
+	private Board(Games games, KeyBoard keyBoard, Screen screen) {
+		this.games = games;
+		this.input = keyBoard;
+		this.screen = screen;
+
+	
+	}
+	
+	public void loadLevel(int level) {
+		time = Games.time;
+		screenToShow = 2;
+		games.resetScreenDelay();
+		games.pause();
+		characters.clear();
+		bombs.clear();
+		messages.clear();
+		
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+	
+	public Entity getEntity(double x, double y, Character e) {
+		Entity res = null;
+		
+		
+		
+		return res;
+		
+	}
+
+	public void update() {
+
+		if (games.isPaused())
+			return;
+		
+		
+
+	}
+	
+	public Characters getChararcterAtExcluding(int x, int y,Characters a ) {
+		Iterator<Characters> itr = this.characters.iterator();
+		
+		Characters character;
+		while(itr.hasNext()) {
+			character = itr.next();
+			if(character == a) {
+				continue;
+			}
+			if(character.getXTile() == x && character.getYTile() == y) {
+				return character;
+			}
+					
+		}
+		return null;
+	}
+
+	@Override
+	public void render(Screen screen) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

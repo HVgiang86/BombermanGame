@@ -1,0 +1,85 @@
+package bomberman.entities.animated_entity;
+
+
+
+import java.util.List;
+
+import bomberman.Board;
+import bomberman.Graphics.Screen;
+import bomberman.Input.KeyBoard;
+import bomberman.entities.Entity;
+import bomberman.entities.animated_entity.bomb.Bomb;
+
+public class Bomber extends Characters {
+
+	
+	private final int time = 15;
+	protected KeyBoard keyBoard;
+	protected int finalAnimation = 30;
+	
+	protected int timeBetweenPutBomb = 0;
+	 private final List<Bomb> bombs;
+	private boolean auto = false;
+	private boolean isPlaceBomb = false;
+	private int countTime = 0;
+	private boolean render = true;
+	private int direction;
+	private final int maxStep;
+	private int steps;
+	
+	public Bomber(int x, int y, Board b) {
+		
+		super(x, y, b);
+		timeAfter = 250;
+		
+	}
+	
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void calculateMove() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void render(Screen screen) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void move(double xc, double yc) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void kill() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected void afterKill() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected boolean canMove(double x, double y) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean collide(Entity e) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

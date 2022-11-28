@@ -1,0 +1,72 @@
+package bomberman.entities.animated_entity.bomb;
+
+import bomberman.Board;
+import bomberman.Graphics.Screen;
+import bomberman.entities.Entity;
+import bomberman.entities.animated_entity.Bomb;
+
+public class Flame extends Entity{
+	
+	protected Board board;
+	protected int direction;// luu lai huong cua ngon lua
+	private int max_length;// do dai lon nhat cua ngon lua
+	protected  int xOrigin, yOrigin; 
+	protected FlameSegement [] flameSegement = new FlameSegement[0];
+	
+	public Flame(int x,int y,int direction,int maxlength,Board board) {
+		this.xOrigin = x;
+		this.yOrigin = y;
+		this.x = x;
+		this.y = y;
+		this.direction = direction;
+		this.max_length = maxlength;
+		this.board = board;
+	
+	}
+	
+	public void createFlameSegement() {
+		
+		this.flameSegement = new FlameSegement[]
+	}
+	
+	public int caculateDistance() {
+		
+		int max = 0;
+		int x = (int) this.x;
+		int y = (int) this.y;
+		
+		while(max < max_length) {
+			if(direction == 0 ) x++;
+			if(direction == 1 ) y++;
+			if(direction == 2 ) x--;
+			if(direction == 3 ) y--;
+			
+		Entity a = this.board.getEntity(x, y, null);
+		
+		if(a instanceof Bomb) ++ max;
+		
+		
+		
+		}
+		return max;
+	}
+
+	@Override
+	public void render(Screen screen) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean collide(Entity e) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
