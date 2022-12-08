@@ -1523,3 +1523,327 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2022-11-26 10:28:04,016 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
 2022-11-26 10:28:04,034 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-26 10:28:04,035 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-11-30 22:59:49,611 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-30 22:59:52,350 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-30 22:59:52,360 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-11-30 22:59:52,392 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-30 22:59:52,392 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-11-30 23:02:59,942 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-30 23:02:59,944 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-30 23:02:59,947 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-30 23:02:59,948 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-01 13:28:43,560 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-01 13:30:48,404 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 13:30:48,409 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-01 13:30:48,442 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 13:30:48,442 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-01 22:57:45,638 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-01 23:07:11,973 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 23:07:11,977 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-01 23:07:12,388 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 23:07:12,388 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-02 00:22:02,283 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 00:22:02,289 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-02 00:22:02,295 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 00:22:02,295 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-02 00:30:22,131 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 00:30:22,133 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-02 00:30:22,138 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 00:30:22,138 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-02 00:44:10,813 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 00:44:10,814 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-02 00:44:10,819 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 00:44:10,820 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-02 00:47:11,475 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 00:47:11,477 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-02 00:47:11,482 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 00:47:11,482 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-02 00:52:15,433 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 00:52:15,435 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-02 00:52:15,439 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 00:52:15,439 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-02 01:00:13,837 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 01:00:13,839 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-02 01:00:13,845 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 01:00:13,845 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-02 09:20:59,212 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-02 09:26:07,439 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-02 09:27:28,262 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 09:27:28,267 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-02 09:27:28,673 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 09:27:28,674 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-02 11:26:17,078 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 11:26:17,089 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-02 11:26:17,100 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-02 11:26:17,100 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 10:39:49,068 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-03 10:42:43,957 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:42:43,965 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 10:42:43,988 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:42:43,988 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 10:51:47,085 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:51:47,859 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 10:51:47,867 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:51:47,867 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 10:52:04,584 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:52:04,587 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 10:52:04,594 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:52:04,594 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 10:52:36,583 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:52:36,586 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 10:52:36,594 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:52:36,594 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 10:53:52,774 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:53:52,776 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 10:53:52,783 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:53:52,783 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 10:54:01,182 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:54:01,184 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 10:54:01,190 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:54:01,190 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 10:55:49,849 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:55:49,851 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 10:55:49,858 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:55:49,858 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 10:56:25,765 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:56:25,767 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 10:56:25,779 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:56:25,779 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 10:58:02,156 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:58:02,158 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 10:58:02,167 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 10:58:02,168 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:13:33,112 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:13:33,115 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:13:33,122 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:13:33,123 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:13:58,826 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:13:58,829 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:13:58,837 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:13:58,837 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:20:27,484 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:20:27,487 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:20:27,495 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:20:27,495 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:35:23,945 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:35:23,949 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:35:23,957 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:35:23,957 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:37:57,455 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:37:57,459 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:37:57,467 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:37:57,467 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:38:50,471 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:38:50,474 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:38:50,482 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:38:50,482 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:42:28,114 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:42:28,117 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:42:28,129 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:42:28,129 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:45:30,424 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:45:30,427 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:45:30,433 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:45:30,433 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:47:03,421 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:47:03,424 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:47:03,434 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:47:03,434 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:47:49,333 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:47:49,336 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:47:49,346 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:47:49,346 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:48:23,024 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:48:23,028 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:48:23,039 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:48:23,040 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:49:00,601 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:49:00,604 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:49:00,613 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:49:00,613 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:49:46,778 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:49:46,780 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:49:46,785 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:49:46,785 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:50:18,612 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:50:18,615 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:50:18,623 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:50:18,623 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:51:51,198 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:51:51,202 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:51:51,211 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:51:51,211 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 11:52:05,031 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:52:05,036 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 11:52:05,046 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 11:52:05,046 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-03 23:28:34,306 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 23:28:34,311 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-03 23:28:34,319 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-03 23:28:34,319 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-05 00:41:32,108 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-05 01:07:09,040 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-05 01:07:09,045 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-05 01:07:09,054 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-05 01:07:09,054 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-05 01:25:24,035 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-05 01:25:24,039 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-05 01:25:24,044 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-05 01:25:24,044 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-07 00:28:20,791 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-07 00:28:22,992 [Worker-8: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vn.edu.actvn.bomberman:bomberman:0.0.1-SNAPSHOT @ D:\BTL\BombermanGame\pom.xml.
+2022-12-07 00:28:22,992 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vn.edu.actvn.bomberman:bomberman:0.0.1-SNAPSHOT @ D:\BTL\BombermanGame\pom.xml.
+2022-12-07 00:28:23,506 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 00:28:23,511 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-07 00:28:23,897 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 00:28:23,897 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-07 00:28:25,255 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vn.edu.actvn.bomberman:bomberman:0.0.1-SNAPSHOT @ D:\BTL\BombermanGame\pom.xml.
+2022-12-07 00:28:26,404 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 00:28:26,405 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-07 00:28:26,406 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 00:28:26,406 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-07 22:09:43,864 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-07 22:09:46,359 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vn.edu.actvn.bomberman:bomberman:0.0.1-SNAPSHOT @ D:\BTL\BombermanGame\pom.xml.
+2022-12-07 22:09:46,359 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vn.edu.actvn.bomberman:bomberman:0.0.1-SNAPSHOT @ D:\BTL\BombermanGame\pom.xml.
+2022-12-07 22:09:47,506 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 22:09:47,510 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-07 22:09:47,869 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 22:09:47,870 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-07 22:09:49,066 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vn.edu.actvn.bomberman:bomberman:0.0.1-SNAPSHOT @ D:\BTL\BombermanGame\pom.xml.
+2022-12-07 22:09:50,017 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 22:09:50,018 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-07 22:09:50,020 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 22:09:50,020 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-07 22:22:25,222 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 22:22:25,234 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-07 22:22:25,242 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 22:22:25,242 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-07 22:26:27,796 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 22:26:27,798 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-07 22:26:27,802 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 22:26:27,802 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-07 22:38:19,621 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 22:38:19,623 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-07 22:38:19,627 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 22:38:19,627 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-07 23:45:21,180 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 23:45:21,184 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-07 23:45:21,190 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 23:45:21,190 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-07 23:53:00,555 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 23:53:00,557 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-07 23:53:00,561 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 23:53:00,561 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-07 23:53:18,669 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 23:53:18,671 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-07 23:53:18,676 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-07 23:53:18,676 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 00:08:11,083 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:08:11,086 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 00:08:11,093 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:08:11,093 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 00:09:02,026 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:09:02,028 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 00:09:02,033 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:09:02,034 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 00:13:42,518 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:13:42,520 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 00:13:42,524 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:13:42,525 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 00:13:54,159 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:13:54,162 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 00:13:54,167 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:13:54,168 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 00:14:45,121 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:14:45,122 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 00:14:45,127 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:14:45,127 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 00:15:07,456 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:15:07,458 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 00:15:07,463 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:15:07,463 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 00:16:28,825 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:16:28,826 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 00:16:28,831 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 00:16:28,831 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 22:25:21,100 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-08 22:34:55,961 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:34:55,968 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 22:34:55,993 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:34:55,994 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 22:35:11,907 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:35:11,914 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 22:35:11,922 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:35:11,923 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 22:35:43,556 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:35:43,558 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 22:35:43,563 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:35:43,564 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 22:47:28,180 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:47:28,184 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 22:47:28,191 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:47:28,191 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 22:49:27,953 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:49:27,955 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 22:49:27,965 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:49:27,965 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 22:50:25,716 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:50:25,720 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 22:50:25,728 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:50:25,728 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 22:57:59,281 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:57:59,284 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 22:57:59,294 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:57:59,294 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 22:58:09,002 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:58:09,005 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 22:58:09,014 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:58:09,014 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 22:58:15,489 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:58:15,491 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 22:58:15,500 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:58:15,500 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 22:59:13,461 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:59:13,466 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 22:59:13,480 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:59:13,480 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 22:59:57,865 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:59:57,868 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 22:59:57,872 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 22:59:57,872 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 23:00:00,843 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:00:00,846 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 23:00:00,859 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:00:00,860 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 23:04:02,755 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:04:02,759 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 23:04:02,768 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:04:02,768 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 23:06:05,229 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:06:05,235 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 23:06:05,246 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:06:05,246 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 23:07:36,246 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:07:36,249 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 23:07:36,255 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:07:36,255 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 23:13:09,039 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:13:09,043 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 23:13:09,054 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:13:09,054 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 23:15:52,991 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:15:52,993 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 23:15:53,002 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:15:53,002 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-08 23:20:20,346 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:20:20,349 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-08 23:20:20,358 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-08 23:20:20,359 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-09 00:08:27,581 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:08:27,582 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-09 00:08:27,587 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:08:27,587 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-09 00:31:25,928 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:31:25,929 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 105 resources
+2022-12-09 00:31:25,933 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:31:25,934 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources

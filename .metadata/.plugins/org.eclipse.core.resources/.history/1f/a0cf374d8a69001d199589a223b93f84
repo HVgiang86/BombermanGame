@@ -1,5 +1,0 @@
-package bomberman.Entities.AnimatedEntity.Characters;
-
-public abstract class Enemy extends Characters{
-    
-}

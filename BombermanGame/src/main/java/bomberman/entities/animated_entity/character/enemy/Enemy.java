@@ -1,9 +1,12 @@
 package bomberman.entities.animated_entity.character.enemy;
 
+import java.awt.Color;
+
 import bomberman.Board;
 import bomberman.Games;
 import bomberman.Graphics.Screen;
 import bomberman.Graphics.Sprite;
+import bomberman.entities.Message;
 import bomberman.entities.animated_entity.Characters;
 
 public abstract class Enemy extends Characters {
@@ -18,6 +21,10 @@ public abstract class Enemy extends Characters {
 
 	protected int finalAnimation = 30;
 	protected Sprite deadSprite;
+	private int currentDirect = 0; // =0 di xuong
+								  // =1 di sang phai
+								  // =2 di sang trai
+								  // =3 di len tren
 
 	public Enemy(int x, int y, Board board, Sprite deadSprite, double speed, int point) {
 		super(x, y, board);
@@ -52,20 +59,38 @@ public abstract class Enemy extends Characters {
 
 	@Override
 	public void calculateMove() {
-		
-
+		moving = true;
+		if(steps != max_steps) {
+			steps--;
+			if(steps == 0) steps = max_steps;
+			}else {
+				steps--;
+				////////////////////////////////
+				
+			}
+			if(currentDirect == 0) move(x, y+speed);
+			if(currentDirect == 1) move(x+speed, y);
+			if(currentDirect == 2) move(x-speed ,y);
+			if(currentDirect == 3) move(x, y-speed);
 	}
 
 	@Override
 	public void move(double xc, double yc) {
-		// TODO Auto-generated method stub
-
+		if(!alive) return;
+		this.y += yc;
+		this.x += xc;
 	}
 
 	@Override
 	public void kill() {
-		// TODO Auto-generated method stub
-
+		// kiem tra Enemy da bi giet chua neu bi giet thi cong diem cho nguoi choi
+		if(! this.alive) return;
+		this.alive = false;
+		
+		board.addPoints(points);
+		
+		Message msg = new Message("+ " + this.points, max_steps, max_steps, 2, Color.white,14);
+		this.board.addMessage(msg);
 	}
 
 	@Override
@@ -76,7 +101,8 @@ public abstract class Enemy extends Characters {
 
 	@Override
 	protected boolean canMove(double x, double y) {
-		// TODO Auto-generated method stub
+		double xr = this.x;
+		double yr = this.y -16;
 		return false;
 	}
 

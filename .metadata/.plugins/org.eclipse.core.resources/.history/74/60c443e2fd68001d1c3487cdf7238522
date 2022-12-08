@@ -1,5 +1,0 @@
-package bomberman.entities.animated_entity.bomb;
-
-public class Flame {
-
-}

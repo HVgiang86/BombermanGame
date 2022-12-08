@@ -1,0 +1,5 @@
+package bomberman.Exceptions;
+
+public class LoadLevelException {
+
+}

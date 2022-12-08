@@ -5,8 +5,10 @@ import java.awt.Frame;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 
+import bomberman.Exceptions.LoadLevelException;
 import bomberman.Graphics.Screen;
 import bomberman.Input.KeyBoard;
+import bomberman.Sound.Sound;
 
 public class Games extends Canvas {
 	
@@ -42,6 +44,7 @@ public class Games extends Canvas {
 	
 	
 	private final KeyBoard input;
+	static Sound sound = new Sound();
 	
 	// Trang thai cua game
 	private boolean running = false;
@@ -61,7 +64,11 @@ public class Games extends Canvas {
 		this.frame.setTitle(title);
 		input = new KeyBoard();
 		screen = new Screen(width, height);
-		board = new Board(this,input,screen);
+		try {
+			board = new Board(this,input,screen);
+		} catch (LoadLevelException e) {
+			e.printStackTrace();
+		}
 	}
 
 	public static int getBombRate() {
@@ -119,6 +126,17 @@ public class Games extends Canvas {
 	    
 	    public static void setBomberSpeed(double bomberSpeed) {
 	    	Games.Bomber_Speed = bomberSpeed;
+	    }
+	    
+	    public void playMusic(int i) {
+	    	sound.setFile(i);
+	    	sound.play();
+	    	sound.loop();
+	    }
+	    
+	    public static void playSE(int i) {
+	    	sound.setFile(i);
+	    	sound.play();
 	    }
 	
 }

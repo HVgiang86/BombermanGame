@@ -3,6 +3,8 @@ package bomberman.entities.animated_entity.bomb;
 import bomberman.Graphics.Screen;
 import bomberman.Graphics.Sprite;
 import bomberman.entities.Entity;
+import bomberman.entities.animated_entity.Bomber;
+import bomberman.entities.animated_entity.character.enemy.Enemy;
 
 public class FlameSegement extends Entity {
 
@@ -74,8 +76,11 @@ public class FlameSegement extends Entity {
 
 	@Override
 	public boolean collide(Entity e) {
+		// xu ly FlameSegement khi va cham voi Character
 		
-		return false;
+		if( e instanceof Bomber) ((Bomber)e).kill();
+		if( e instanceof Enemy)  ((Enemy)e).kill();
+		return true;
 	}
 
 }

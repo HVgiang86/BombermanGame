@@ -14,7 +14,7 @@ public class Message extends Entity {
 
 	
 	//hien thi thong bao khi giet duoc quai
-	public Message(String message, double x, double y, Color color, int size) {
+	public Message(String message, double x, double y,  int duration,Color color, int size) {
 		this.x = x;
 		this.y = y;
 		this.message = message;

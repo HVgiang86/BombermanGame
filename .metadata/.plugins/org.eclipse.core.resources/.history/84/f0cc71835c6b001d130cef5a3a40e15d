@@ -1,5 +1,0 @@
-package bomberman.entities.tiles.destroyable;
-
-public class Destroyable {
-
-}

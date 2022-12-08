@@ -2,7 +2,10 @@ package bomberman.Graphics;
 
 import java.util.Arrays;
 
+import bomberman.Board;
+import bomberman.Games;
 import bomberman.entities.Entity;
+import bomberman.entities.animated_entity.Bomber;
 
 public class Screen {
 
@@ -20,6 +23,37 @@ public class Screen {
 		this.width = width;
 		this.height = height;
 		pixels = new int[width * height];
+	}
+	
+	
+	
+	public int getWidth() {
+		return width;
+	}
+
+
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+
+
+	public int getHeight() {
+		return height;
+	}
+
+
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+
+
+	public static void setOffset(int x1, int y1 ) {
+		xOffset = x1;
+		yOffset = y1;;
 	}
 
 	// xoa anh
@@ -43,6 +77,17 @@ public class Screen {
 					pixels[xa + ya * width] = color;
 			}
 		}
+	}
+	
+	public static int calculateXOffset(Board board,Bomber bomber) {
+		  if (bomber == null) return 0;
+	        int temp = xOffset;
+	        double bomberX = bomber.getX() / 16;
+	        double complement = 0.5;
+	        int firstBreakpoint = board.getWidth() / 4;
+	        int lastBreakpoint = board.getWidth() - firstBreakpoint;
+	        if (bomberX > firstBreakpoint + complement && bomberX < lastBreakpoint - complement) temp = (int) bomber.getX()  - (Games.width / 2);
+	        return temp;
 	}
 
 	public void renderEntityWithBelowSprite(int xp, int yp, Entity entity, Sprite bellow) {

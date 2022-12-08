@@ -4,8 +4,10 @@ import bomberman.Board;
 import bomberman.Games;
 import bomberman.Graphics.Screen;
 import bomberman.Graphics.Sprite;
+import bomberman.Level.Coordinates;
 import bomberman.entities.AnimatedEntity;
 import bomberman.entities.Entity;
+import bomberman.entities.animated_entity.Bomber;
 import bomberman.entities.animated_entity.Characters;
 
 public class Bomb extends AnimatedEntity {
@@ -66,8 +68,27 @@ public class Bomb extends AnimatedEntity {
 
 	@Override
 	public boolean collide(Entity e) {
-		// TODO Auto-generated method stub
+		// xu ly bomber di ra sau khi vua dat bom
+		if(e instanceof Bomber) {
+			 double diffX = e.getX() - Coordinates.tileToPixel(getX());
+			 double diffY = e.getY() - Coordinates.tileToPixel(getY());
+		// kiem tra xem bomber di chuyen ra ngoai vi tri dat bom hay chua
+		if(!(diffX >= -10 && diffX < 16 && diffY >= 1 && diffY <= 28))
+			{this.allowedToPassThru = false;}
+		
+		return this.allowedToPassThru;
+		}
+		
+		// xu ly va cham voi Flame cua bomb khac
+		if( e instanceof Flame) {
+			time_explode();
+			return true;
+		}
 		return false;
+	}
+	
+	public void time_explode() {
+		this.timeToExplode = 0;
 	}
 
 	@Override
