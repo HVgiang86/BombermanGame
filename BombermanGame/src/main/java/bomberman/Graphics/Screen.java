@@ -1,5 +1,9 @@
 package bomberman.Graphics;
 
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
 import java.util.Arrays;
 
 import bomberman.Board;
@@ -112,5 +116,59 @@ public class Screen {
 
 		}
 	}
+	
+	 /* Vẽ các màn hình game */
+    public void drawEndGame(Graphics g, int points) {
+        g.setColor(Color.black);
+        g.fillRect(0, 0, getWidth(), getHeight());
+
+        Font font = new Font("Arial", Font.PLAIN, 20 * Games.scale);
+        g.setFont(font);
+        g.setColor(Color.white);
+        drawCenteredString("GAME OVER", getWidth(), getHeight(), g);
+
+        font = new Font("Arial", Font.PLAIN, 10 * Games.scale);
+        g.setFont(font);
+        g.setColor(Color.yellow);
+        drawCenteredString("SCORE: " + points, getWidth(), getHeight() + (Games.Tiles_size * 2) * Games.scale, g);
+    }
+
+    public void drawChangeLevel(Graphics g, int level) {
+        g.setColor(Color.black);
+        g.fillRect(0, 0, getWidth(), getHeight());
+
+        Font font = new Font("Arial", Font.PLAIN, 20 * Games.scale);
+        g.setFont(font);
+        g.setColor(Color.white);
+        drawCenteredString("LEVEL " + level, getWidth(), getHeight(), g);
+    }
+
+    public void drawPaused(Graphics g) {
+        Font font = new Font("Arial", Font.PLAIN, 20 * Games.scale);
+        g.setFont(font);
+        g.setColor(Color.white);
+        drawCenteredString("PAUSED", getWidth(), getHeight(), g);
+    }
+
+    public void drawFinishGame(Graphics g, int points) {
+        g.setColor(Color.black);
+        g.fillRect(0, 0, getWidth(), getHeight());
+
+        Font font = new Font("Arial", Font.PLAIN, 20 * Games.scale);
+        g.setFont(font);
+        g.setColor(Color.white);
+        drawCenteredString("VICTORY", getWidth(), getHeight(), g);
+
+        font = new Font("Arial", Font.PLAIN, 10 * Games.scale);
+        g.setFont(font);
+        g.setColor(Color.yellow);
+        drawCenteredString("SCORE: " + points, getWidth(), getHeight() + (Games.Tiles_size * 2) * Games.scale, g);
+    }
+    
+    public void drawCenteredString(String s, int w, int h, Graphics g) {
+        FontMetrics fm = g.getFontMetrics();
+        g.drawString(s, (w - fm.stringWidth(s)) / 2, (fm.getAscent() + (h - (fm.getAscent() + fm.getDescent())) / 2));
+    }
+
 
 }

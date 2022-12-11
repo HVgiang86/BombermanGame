@@ -1,0 +1,5 @@
+package bomberman.GUI.Menu;
+
+public class Options {
+
+}

@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package bomberman;
+
+import bomberman.GUI.Frame;
+
+/**
+ * @author HVGiang86
+ *
+ */
+public class Bomberman {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		new Frame();
+	}
+
+}

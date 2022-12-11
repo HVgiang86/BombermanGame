@@ -92,7 +92,13 @@ public class Bomber extends Characters {
 		steps--;
 		if (steps == 0) {
 			steps = maxStep;
-
+			////////////////////////////
+			
+			
+			
+			
+			
+			
 		}
 	}
 
@@ -235,9 +241,9 @@ public class Bomber extends Characters {
 	@Override
 	protected boolean canMove(double x, double y) {
 		// kiem tra vi tri tiep theo bomber co the di co an toan khong
-		// * entity_BackLeft *
-		// entity_UpRight bomber entity_UpLeft
-		// * entity_BackRight *
+		// *         entity_BackLeft     *
+		// entity_UpRight   bomber     entity_UpLeft
+		// *      entity_BackRight    *
 		double back_Ly = y - 1 + (double) Games.Tiles_size;
 		double up_Lx = x + 1;
 		double back_Rx = x - 1 + (double) Games.Tiles_size * 3 / 4;
@@ -342,5 +348,9 @@ public class Bomber extends Characters {
 		;
 		return false;
 	}
+	
+	 public void setAuto(boolean q) {
+	        auto = q;
+	    }
 
 }

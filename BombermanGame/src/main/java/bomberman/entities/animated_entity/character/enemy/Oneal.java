@@ -24,4 +24,10 @@ public class Oneal extends Enemy {
 		
 	}
 
+	@Override
+	protected void chooseSprite() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

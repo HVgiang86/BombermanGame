@@ -24,6 +24,12 @@ public class Ballom extends Enemy{
 		
 	}
 
+	@Override
+	protected void chooseSprite() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 	
 

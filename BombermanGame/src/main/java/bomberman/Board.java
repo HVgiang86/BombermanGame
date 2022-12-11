@@ -13,11 +13,21 @@ import bomberman.Input.KeyBoard;
 import bomberman.Level.FileLevelLoader;
 import bomberman.Level.LevelLoader;
 import bomberman.entities.Entity;
+import bomberman.entities.LayeredEntity;
 import bomberman.entities.Message;
 import bomberman.entities.animated_entity.Bomber;
 import bomberman.entities.animated_entity.Characters;
 import bomberman.entities.animated_entity.bomb.Bomb;
 import bomberman.entities.animated_entity.bomb.FlameSegement;
+import bomberman.entities.animated_entity.character.enemy.Ballom;
+import bomberman.entities.animated_entity.character.enemy.Oneal;
+import bomberman.entities.tiles.Grass;
+import bomberman.entities.tiles.Portal;
+import bomberman.entities.tiles.Wall;
+import bomberman.entities.tiles.Items.BombItem;
+import bomberman.entities.tiles.Items.FlameItem;
+import bomberman.entities.tiles.Items.SpeedItem;
+import bomberman.entities.tiles.destroyable.Brick;
 
 public class Board implements IRenderable {
 
@@ -37,11 +47,14 @@ public class Board implements IRenderable {
 	private int points = Games.points;
 	private int lives = Games.lives;
 
+	private final char[][] map;
+
 	public Board(Games games, KeyBoard keyBoard, Screen screen) throws LoadLevelException {
 		this.games = games;
 		this.input = keyBoard;
 		this.screen = screen;
 		loadLevel(1);
+		map = new char[levelLoader.getWidth()][levelLoader.getHeight()];
 	}
 
 	public void loadLevel(int level) throws LoadLevelException {
@@ -117,6 +130,32 @@ public class Board implements IRenderable {
 
 		}
 		return null;
+	}
+
+	public void gameResume() {
+		games.resetScreenDelay();
+		screenToShow = -1;
+		games.resume();
+	}
+
+	public void gamePause() {
+		games.resetScreenDelay();
+		if (screenToShow <= 0)
+			screenToShow = 3;
+		games.pause();
+	}
+
+	public void drawScreen(Graphics g) {
+		switch (screenToShow) {
+		case 1:
+			screen.drawEndGame(g, points);
+		case 2:
+			screen.drawChangeLevel(g, levelLoader.getLevel());
+		case 3:
+			screen.drawPaused(g);
+		case 4:
+			screen.drawFinishGame(g, points);
+		}
 	}
 
 	public FlameSegement getFlameSegementAt(int x, int y) {
@@ -220,6 +259,17 @@ public class Board implements IRenderable {
 		return levelLoader.getWidth();
 	}
 
+	public Bomber getBomber() {
+		Iterator<Characters> itr = characters.iterator();
+		Characters cur;
+		while (itr.hasNext()) {
+			cur = itr.next();
+			if (cur instanceof Bomber)
+				return (Bomber) cur;
+		}
+		return null;
+	}
+
 	public void newGame() throws LoadLevelException {
 		loadLevel(1);
 		resetProperties();
@@ -270,13 +320,13 @@ public class Board implements IRenderable {
 		renderBombs(screen);
 		renderCharacter(screen);
 	}
-	
+
 	protected void renderCharacter(Screen screen) {
-		Iterator<Characters> c= this.characters.iterator();
-		
-		while(c.hasNext())
+		Iterator<Characters> c = this.characters.iterator();
+
+		while (c.hasNext())
 			c.next().render(screen);
-				
+
 	}
 
 	protected void renderBombs(Screen screen) {
@@ -302,7 +352,7 @@ public class Board implements IRenderable {
 
 		if (games.isPaused())
 			return;
-
+		updateMap();
 		updateEntities();
 		updateCharacter();
 		updateBombs();
@@ -358,6 +408,14 @@ public class Board implements IRenderable {
 
 	}
 
+	public int substractTime() {
+		if (games.isPaused())
+			return this.time;
+		else {
+			return this.time--;
+		}
+	}
+
 	public void addMessage(Message m) {
 		messages.add(m);
 	}
@@ -366,4 +424,44 @@ public class Board implements IRenderable {
 		if (this.time <= 0)
 			endGame();
 	}
+	
+	 private char revive(Entity e) {
+	        if (e instanceof Wall) return '#';
+	        else if (e instanceof Grass) return ' ';
+	        else if (e instanceof LayeredEntity) {
+	            Entity top = ((LayeredEntity) e).getTopEntity();
+	            if (top instanceof Portal) return 'x';
+	            else if (top instanceof SpeedItem) return 's';
+	            else if (top instanceof BombItem) return 'b';
+	            else if (top instanceof FlameItem) return 'f';
+	            else if (top instanceof Brick) return '*';
+	            else return ' ';
+	        } else if (e instanceof Characters) {
+	            if (e instanceof Bomber) {
+	                if (getEntity(e.getXTile(), e.getYTile(), (Bomber) e) instanceof Bomb) return '8';
+	                return 'p';
+	            } else if (e instanceof Ballom) return '1';
+	            else if (e instanceof Oneal) return '2';
+	          //  else if (e instanceof Doll) return '3';
+	            //else if (e instanceof Minvo) return '4';
+	          //  else if (e instanceof Ghost) return '5';
+	          //  else if (e instanceof Kondoria) return '6';
+	            else return 'p';
+	        } else if (e instanceof Bomb) {
+	            Bomber b = getBomber();
+	            if (b.getXTile() == e.getX() && b.getYTile() == e.getY()) return '8';
+	            return '7';
+	        } else return ' ';
+	    }
+
+	    private void updateMap() {
+	        for (int h = 0; h < levelLoader.getHeight(); h++)
+	            for (int w = 0; w < levelLoader.getWidth(); w++) map[w][h] = revive(getEntity(w, h, null));
+
+	    }
+
+	    public char[][] reviveMap() {
+	        if (map != null) updateMap();
+	        return map;
+	    }
 }

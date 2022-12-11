@@ -1,0 +1,59 @@
+package bomberman.GUI;
+
+import java.awt.BorderLayout;
+import java.awt.Menu;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import bomberman.Games;
+
+public class Frame extends JFrame{
+	  public GamePanel gamePanel;
+	    private final InfoPanel infoPanel;
+
+	    private final Games game;
+
+	    public Frame() {
+	        setMenuBar(new Menu(this));
+
+	        JPanel containerPanel = new JPanel(new BorderLayout());
+	        gamePanel = new GamePanel(this);
+	        infoPanel = new InfoPanel(gamePanel.getGame());
+
+	        containerPanel.add(infoPanel, BorderLayout.PAGE_START);
+	        containerPanel.add(gamePanel, BorderLayout.PAGE_END);
+
+	        game = gamePanel.getGame();
+
+	        add(containerPanel);
+
+	        setResizable(false);
+	        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	        pack();
+	        setLocationRelativeTo(null);
+	        setVisible(true);
+
+	        game.start();
+	    }
+
+	    public void changeLevel(int i) {
+	        game.getBoard().loadLevel(i);
+	    }
+
+	    public void newGame() {
+	        game.getBoard().newGame();
+	    }
+
+	    public void restart() {
+	        game.getBoard().restart();
+	    }
+
+	    public void pause() {
+	        game.getBoard().gamePause();
+	    }
+
+	    public void resume() {
+	        game.getBoard().gameResume();
+	    }
+}
