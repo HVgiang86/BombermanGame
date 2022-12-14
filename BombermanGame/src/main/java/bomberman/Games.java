@@ -30,7 +30,7 @@ public class Games extends Canvas {
 	public static final int lives = 3;
 
 	// Thoi gian tre man hinh
-	public static int Screen_Delay = 3;
+	public static int Screen_Delay = 4;
 
 	// Thong so mac dinh cua nguoi choi va bom
 	protected static int Bomb_Rate = Bombrate;

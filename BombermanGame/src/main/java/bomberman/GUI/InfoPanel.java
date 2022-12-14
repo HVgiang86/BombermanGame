@@ -35,7 +35,7 @@ public class InfoPanel extends JPanel{
 	        add(livesLabel);
 
 	        setBackground(Color.black);
-	        setPreferredSize(new Dimension(0, 40));
+	        setPreferredSize(new Dimension(0, 35));
 	    }
 
 	    public void setTime(int t) {
