@@ -11,7 +11,6 @@ import bomberman.GUI.Frame;
  *
  */
 public class Bomberman {
-
 	/**
 	 * @param args
 	 * @throws LoadLevelException 

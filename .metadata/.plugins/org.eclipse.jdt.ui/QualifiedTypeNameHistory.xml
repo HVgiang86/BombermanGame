@@ -48,7 +48,6 @@
     <fullyQualifiedTypeName name="java.awt.Font"/>
     <fullyQualifiedTypeName name="java.awt.FontMetrics"/>
     <fullyQualifiedTypeName name="bomberman.entities.animated_entity.Characters"/>
-    <fullyQualifiedTypeName name="bomberman.Games"/>
     <fullyQualifiedTypeName name="bomberman.GUI.Frame"/>
     <fullyQualifiedTypeName name="bomberman.GUI.Menu.Menu"/>
     <fullyQualifiedTypeName name="bomberman.entities.tiles.Wall"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="bomberman.entities.tiles.Items.FlameItem"/>
     <fullyQualifiedTypeName name="bomberman.entities.tiles.destroyable.Brick"/>
     <fullyQualifiedTypeName name="bomberman.entities.animated_entity.character.enemy.Ballom"/>
+    <fullyQualifiedTypeName name="bomberman.Games"/>
 </qualifiedTypeNameHistroy>

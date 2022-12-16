@@ -57,7 +57,7 @@ public class Board implements IRenderable {
 		map = new char[levelLoader.getWidth()][levelLoader.getHeight()];
 	}
 
-	public void loadLevel(int level) throws LoadLevelException {
+	public void loadLevel(int level) throws LoadLevelException  {
 		time = Games.time;
 		screenToShow = 2;
 		games.resetScreenDelay();
@@ -74,7 +74,7 @@ public class Board implements IRenderable {
 			levelLoader = new FileLevelLoader(this, level);
 			entities = new Entity[this.levelLoader.getHeight() * this.levelLoader.getWidth()];
 			levelLoader.createEntities();
-		} catch (NullPointerException e) {
+		}catch (NullPointerException e) {
 			finishGame();
 		}
 
@@ -312,7 +312,7 @@ public class Board implements IRenderable {
 		int y0 = screen.yOffset >> 4;
 		int y1 = (Screen.yOffset + screen.getHeight()) / Games.Tiles_size;
 
-		for (int y = 0; y < y1; y++) {
+		for (int y = y0; y < y1; y++) {
 			for (int x = x0; x < x1; x++) {
 				this.entities[x + y * this.levelLoader.getWidth()].render(screen);
 			}
@@ -442,10 +442,6 @@ public class Board implements IRenderable {
 	                return 'p';
 	            } else if (e instanceof Ballom) return '1';
 	            else if (e instanceof Oneal) return '2';
-	          //  else if (e instanceof Doll) return '3';
-	            //else if (e instanceof Minvo) return '4';
-	          //  else if (e instanceof Ghost) return '5';
-	          //  else if (e instanceof Kondoria) return '6';
 	            else return 'p';
 	        } else if (e instanceof Bomb) {
 	            Bomber b = getBomber();

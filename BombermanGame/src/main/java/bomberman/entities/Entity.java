@@ -49,6 +49,6 @@ public abstract class Entity implements IRenderable {
 	}
 
 	public int getYTile() {
-		return Coordinates.pixelToTile(y + (double) sprite.SIZE / 2);
+		return Coordinates.pixelToTile(y - (double) sprite.SIZE / 2);
 	}
 }

@@ -47,4 +47,9 @@ public class Destroyable extends Tile {
 		return x2;
 	}
 
+	public void addBelowSprite(Sprite sprite) {
+		belowSprite = sprite;
+		
+	}
+
 }

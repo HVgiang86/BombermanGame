@@ -30,7 +30,7 @@ public class Games extends Canvas {
 	public static final int lives = 3;
 
 	// Thoi gian tre man hinh
-	public static int Screen_Delay = 4;
+	public static int Screen_Delay = 3;
 
 	// Thong so mac dinh cua nguoi choi va bom
 	protected static int Bomb_Rate = Bombrate;
@@ -65,7 +65,7 @@ public class Games extends Canvas {
 		this.frames_game = frame;
 		this.frames_game.setTitle(title);
 		input = new KeyBoard();
-		screen = new Screen(width, height);
+		screen = new Screen(width*scale, height*scale);
 
 		this.board = new Board(this, input, screen);
 		addKeyListener(input);
@@ -79,7 +79,7 @@ public class Games extends Canvas {
 		}
 
 		screen.clear();
-
+		
 		Graphics g = bs.getDrawGraphics();
 		board.drawScreen(g);
 

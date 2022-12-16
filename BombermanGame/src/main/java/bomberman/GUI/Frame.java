@@ -20,6 +20,7 @@ public class Frame extends JFrame {
 
 		JPanel containerPanel = new JPanel(new BorderLayout());
 		gamePanel = new GamePanel(this);
+                
 		infoPanel = new InfoPanel(gamePanel.getGame());
 
 		containerPanel.add(infoPanel, BorderLayout.PAGE_START);
