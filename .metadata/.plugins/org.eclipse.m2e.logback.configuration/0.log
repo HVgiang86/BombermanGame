@@ -2651,3 +2651,13 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2022-12-16 03:02:51,596 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 106 resources
 2022-12-16 03:02:51,601 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-12-16 03:02:51,601 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-16 09:27:43,979 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-16 09:27:46,691 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-16 09:27:46,697 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 106 resources
+2022-12-16 09:27:46,924 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-16 09:27:46,924 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
+2022-12-16 23:04:13,987 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-16 23:04:16,268 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-16 23:04:16,274 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 106 resources
+2022-12-16 23:04:16,281 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-16 23:04:16,281 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BTL\BombermanGame\src\test\resources
