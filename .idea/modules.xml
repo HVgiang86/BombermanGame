@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BombermanGame - KMA/BombermanGame/BombermanGame.iml" filepath="$PROJECT_DIR$/BombermanGame - KMA/BombermanGame/BombermanGame.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/BombermanGame - KMA.iml" filepath="$PROJECT_DIR$/.idea/BombermanGame - KMA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BombermanGame/BombermanGame.iml" filepath="$PROJECT_DIR$/BombermanGame/BombermanGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bomberman.iml" filepath="$PROJECT_DIR$/bomberman.iml" />
     </modules>
   </component>
 </project>
