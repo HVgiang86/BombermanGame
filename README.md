@@ -1,11 +1,9 @@
 # Bomberman Game
 
     
-   Trong bài tập lớn này, nhiệm vụ của bạn là viết một phiên bản Java mô phỏng lại trò chơi
-   
-   [Bomberman](https://www.youtube.com/watch?v=mKIOVwqgSXM) kinh điển của NES.
+   Trong bài tập lớn này, nhiệm vụ của bạn là viết một phiên bản Java mô phỏng lại trò chơi [Bomberman](https://www.youtube.com/watch?v=mKIOVwqgSXM) kinh điển của NES.
 
-   <img src="BombermanGame/src/main/resources/View/demo.png"/>
+   <img src="BombermanGame/src/main/resources/View/demo.png" alt="drawing" width="400"/>
 
 ## Contributors
 
